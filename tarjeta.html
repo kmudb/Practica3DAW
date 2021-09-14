@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta de credito</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="tarjeta.css">
+    <script src="tarjeta.js"></script>
+</head>
+<body class="container">
+    <h1>Formulario Tajerta de credito</h1>
+    <form action="#" class="credit-card-div">
+        <div class="panel panel-default" >
+         <div class="panel-heading">
+             
+              <div class="row ">
+                      <div class="col-md-12">
+                          <input type="text" id="carnumber" class="form-control" placeholder="Enter Card Number" />
+                          <span role="alert" class="Error" id="errorcardnumber" aria-hidden="true">  </span>
+                      </div>
+                  </div>
+             <div class="row ">
+                      <div class="col-md-3 col-sm-3 col-xs-3">
+                          <span class="help-block text-muted small-font" > Expiry Month</span>
+                          <input type="text" id="Month" class="form-control" placeholder="MM" />
+                      </div>
+                 <div class="col-md-3 col-sm-3 col-xs-3">
+                          <span class="help-block text-muted small-font" >  Expiry Year</span>
+                          <input type="text" id="Year" class="form-control" placeholder="YY" />
+                      </div>
+                <div class="col-md-3 col-sm-3 col-xs-3">
+                          <span class="help-block text-muted small-font" >  CCV</span>
+                          <input type="text" id="ccv" class="form-control" placeholder="CCV" />
+                      </div>
+                 <div class="col-md-3 col-sm-3 col-xs-3">
+        <img src="credit card.png" width="50" height="100" class="img-rounded" />
+                 </div>
+                  </div>
+             <div class="row ">
+                      <div class="col-md-12 pad-adjust">
+        
+                          <input type="text" id="name" class="form-control" placeholder="Name On The Card" />
+                      </div>
+                  </div>
+             <div class="row">
+        <div class="col-md-12 pad-adjust">
+            <div class="checkbox">
+            <label>
+              <input type="checkbox" checked class="text-muted"> Save details for fast payments <a href="#"> learn how ?</a>
+            </label>
+          </div>
+        </div>
+             </div>
+               <div class="row ">
+                      <div class="col-md-6 col-sm-6 col-xs-6 pad-adjust">
+                          <input type="submit" id="submit" class="btn btn-warning btn-block" value="PAY NOW" />
+                      </div>
+                  </div>
+             
+                           </div>
+                      </div>
+        </form>
+</body>
+</html>
